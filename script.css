@@ -1,13 +1,22 @@
+:root {
+  --white:white;
+  --lightblue: #00c1b5;
+  --orange: #ff651a;
+  --yellow: #ffbe00;
+  --blue: #1d3fbb;
+  --red: #e30512;
+}
+
 .fixed-content {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr;
-    height: 100vh;
-    width: 100vw;
-    padding: 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
 }
 
 .fixed-content__block {
@@ -27,7 +36,7 @@
 }
 
 .fixed-content__smalltext {
-    margin-top: .8rem
+  margin-top: 0.8rem;
 }
 
 .fixed-content__link {
@@ -39,7 +48,7 @@
 
   color: black;
   font-weight: bolder;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   font-size: 1.2rem;
 }
 
@@ -71,8 +80,57 @@
   font-size: 1.4rem;
 }
 
-.fixed-content__listitem{
-    margin-top: .5rem;
+.fixed-content__listitem {
+  margin-top: 0.5rem;
 
-    font-size: 1.3rem;
+  font-size: 1.3rem;
+}
+
+.slide-container {
+  position: relative;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.slide {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.slide__img {
+
+}
+.slide__issue {
+
+}
+.slide__buyhere {
+
+}
+.slide__selectedstores {
+
+}
+
+.slide--white  {
+  background-color: var(--white);
+}
+
+.slide--lightblue {
+  background-color: var(--lightblue);
+}
+
+.slide--red {
+  background-color: var(--red);
+}
+
+.slide--orange {
+  background-color: var(--orange);
+}
+
+.slide--yellow {
+  background-color: var(--yellow);
+}
+
+.slide--blue {
+  background-color: var(--blue);
 }
