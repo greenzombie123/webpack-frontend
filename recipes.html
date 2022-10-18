@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- OTHER META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- WEBSITE TITLE -->
+    <title>My Website</title>
+
+    <!-- WEBSITE DESCRIPTION -->
+    <meta name="description" content="This is my cool website!" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/jpg" href="/path/to/your/favicon/" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- *currently set to "Roboto". Feel free to change it to whatever you like* -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS STYLE LINK -->
+    <link rel="stylesheet" href="../src/reset.css" />
+    <link rel="stylesheet" href="../src/recipes.css" />
+
+    <!--Javascript SCRIPT-->
+    <!-- <script src="dist/main.js" defer ></script> -->
+    <script src="src/index.js" defer></script>
+  </head>
+  <body>
+    <!-- WEBSITE CONTENT GOES HERE -->
+    <div class="hero-background">
+      <header class="header">
+        <div class="header__logo">Panny</div>
+        <div class="header__tab-list">
+          <li class="header__tab"><a href="" class="header__link">Home</a></li>
+          <li class="header__tab">
+            <a href="" class="header__link header__link--orange">Recipes</a>
+          </li>
+          <li class="header__tab header__arrow">
+            <a href="" class="header__link">Services</a>
+          </li>
+          <li class="header__tab"><a href="" class="header__link">About</a></li>
+          <li class="header__tab"><a href="" class="header__link">News</a></li>
+        </div>
+        <button class="header__button">Contact Us</button>
+      </header>
+      <div class="hero-block">
+        <h1 class="hero-block__bigText">
+          Our Recipes
+        </h1>
+        <p class="hero-block__smallText">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut,
+          architecto
+        </p>
+        <button class="hero-block__button">Get Started</button>
+      </div>
+    </div>
+    <div class="recipes-header">
+      <h2 class="recipes-header__text">Recipes</h2>
+    </div>
+    <div class="recipe-menu">
+      <div class="recipe-menu__descript">
+        <h3 class="recipe-menu__title">Milky Ground</h3>
+        <p class="recipe-menu__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis praesentium eos non mollitia nulla a commodi </p>
+        <span class="recipe-menu__price">$ 13.00</span>
+      </div>
+      <img
+        src="../src/assets/bowl.jpg
+        "
+        alt=""
+        class="recipe-menu__img"
+      />
+      <div class="recipe-menu__descript">
+        <h3 class="recipe-menu__title">Patty Meal</h3>
+        <p class="recipe-menu__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis praesentium eos non mollitia nulla a commodi </p>
+        <span class="recipe-menu__price">$ 10.00</span>
+      </div>
+      <img
+        src="../src/assets/harburg.jpg
+        "
+        alt=""
+        class="recipe-menu__img"
+      />
+      <img
+        src="../src/assets/harburger.jpg
+        "
+        alt=""
+        class="recipe-menu__img"
+      />
+      <div class="recipe-menu__descript">
+        <h3 class="recipe-menu__title">Breakfast Burg</h3>
+        <p class="recipe-menu__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis praesentium eos non mollitia nulla a commodi </p>
+        <span class="recipe-menu__price">$ 15.00</span>
+      </div>
+      <img
+        src="../src/assets/pancakes.jpg
+        "
+        alt=""
+        class="recipe-menu__img"
+      />
+      <div class="recipe-menu__descript">
+        <h3 class="recipe-menu__title">Fruity Panny</h3>
+        <p class="recipe-menu__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis praesentium eos non mollitia nulla a commodi </p>
+        <span class="recipe-menu__price">$ 11.00</span>
+      </div>
+    </div>
+  </body>
+</html>
