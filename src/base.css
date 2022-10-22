@@ -51,6 +51,15 @@ body {
   font-size: 1.4rem;
 }
 
+.header__link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header__link--disabled{
+  pointer-events: none;
+}
+
 .header__link--orange {
   color: #f4e500;
 }
