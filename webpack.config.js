@@ -8,6 +8,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    assetModuleFilename: 'images/[hash][ext][query]'
   },
   module: {
     rules: [
@@ -20,6 +21,11 @@ const config = {
         type: "asset/resource",
       },
     ],
+  },
+  resolve: {
+    alias: {
+      images: path.resolve(__dirname, 'src/assets/')
+    },
   },
   // plugins: [
   //   new HtmlWebpackPlugin({

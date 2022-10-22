@@ -28,6 +28,8 @@ body {
   justify-content: center;
 
   background-color: #00000047;
+  /*CHeck*/
+  /* background: no-repeat center/cover url("assets/harburg.jpg"); */
 }
 
 .header__logo {

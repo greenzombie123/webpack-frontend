@@ -5,6 +5,11 @@ import {
   disableLink,
 } from "./helper";
 
+import hamburg from "./assets/harburg.jpg"
+import fruity from 'images/fruitypancakes.jpg'
+import harburger from "images/harburger.jpg"
+import bowl from 'images/bowl.jpg'
+
 
 export function loadRecipesPage() {
   // remove content div (removeContent())
@@ -32,8 +37,7 @@ function createContent() {
     <span class="recipe-menu__price">$ 13.00</span>
   </div>
   <img
-    src="../src/assets/bowl.jpg
-    "
+    src=${bowl}
     alt=""
     class="recipe-menu__img"
   />
@@ -43,14 +47,12 @@ function createContent() {
     <span class="recipe-menu__price">$ 10.00</span>
   </div>
   <img
-    src="../src/assets/harburg.jpg
-    "
+    src=${hamburg}
     alt=""
     class="recipe-menu__img"
   />
   <img
-    src="../src/assets/harburger.jpg
-    "
+    src=${harburger}
     alt=""
     class="recipe-menu__img"
   />
@@ -60,8 +62,7 @@ function createContent() {
     <span class="recipe-menu__price">$ 15.00</span>
   </div>
   <img
-    src="../src/assets/pancakes.jpg
-    "
+    src=${fruity}
     alt=""
     class="recipe-menu__img"
   />
