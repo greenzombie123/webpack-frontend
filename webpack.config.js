@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
-// const HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const config = {
   mode: 'development',
@@ -27,15 +27,10 @@ const config = {
       images: path.resolve(__dirname, 'src/assets/')
     },
   },
-  // plugins: [
-  //   new HtmlWebpackPlugin({
-  //     templateContent: ({ htmlWebpackPlugin }) =>
-  //       '<!DOCTYPE html><html><head><meta charset="utf-8"><title>' +
-  //       htmlWebpackPlugin.options.title +
-  //       '</title></head><body><div id="app"></div></body></html>',
-  //     filename: "index.html",
-  //   }),
-  // ],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "src/index.html"}),
+  ],
 };
 
 module.exports = config;
