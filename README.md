@@ -1,6 +1,8 @@
 # Goal
 The goal of this project is to dynamically render content of a restaurant webpage by using javascript instead of having loading multiple html files.
 
+[Link to site](https://greenzombie123.github.io/webpack-frontend/)
+
 ![image](src/assets/panny.png)
 
 # Features
